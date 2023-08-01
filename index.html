@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center pt-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <span class="fs-4">Jaume Viladevall</span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#hanging-icons" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="#showcase" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contactme" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <!-- Hero -->
+    <section id="hero" class="hero-bg">
+      <div class="px-4 py-5 my-3 text-center">
+        <img
+          src="Images/ProfilePic.PNG"
+          alt="ProfilePic"
+          height="250px"
+          class="rounded-circle"
+        />
+        <h1 class="display-5 fw-bold text-body-emphasis">I'm Jaume</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Product Leader & configurator programmer.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <div class="container px-4 py-4" id="hanging-icons">
+      <div class="mb-4">
+        <h4>Resume</h4>
+        <hr />
+      </div>
+      <div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square fs-4 flex-shrink-0 me-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              class="bi bi-book"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Experience</h3>
+            <li style="list-style-type: none"><b>LedsC4</b></li>
+            <p>2021 - Present</p>
+            <p>
+              <u>Product Leader</u>: Design, develop and manage all of the
+              LedsC4 product configurators with DriveWorks.
+            </p>
+
+            <li style="list-style-type: none"><b>Salvi Lighting</b></li>
+            <p>2015 - 2021</p>
+            <p>
+              <u>Product engineer</u>: Develop a new product configurator with
+              Driveworks. Creating new BOM and product structure system
+            </p>
+            <p>
+              <u>Lighting Designer</u>: Lighting projects, CAD, Dialux, Relux
+              Lighting design
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square fs-4 flex-shrink-0 me-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              class="bi bi-briefcase"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Education</h3>
+            <li style="list-style-type: none"><b>UPC</b></li>
+            <p>2019</p>
+            <p>
+              <u>Master's degree</u>: Design and Engineering for Additive
+              Manufacturing
+            </p>
+
+            <li style="list-style-type: none"><b>UPC</b></li>
+            <p>2014</p>
+            <p><u>Bachelor of Engineering</u>: Survey Engineering</p>
+            <p>Thesis with Honours</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square fs-4 flex-shrink-0 me-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              class="bi bi-code-square"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+              />
+              <path
+                d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Courses</h3>
+            <li style="list-style-type: none"><b>Udemy</b></li>
+            <p>2023 - Present</p>
+            <p>The Complete 2023 Web Development Bootcamp</p>
+
+            <li style="list-style-type: none"><b>Coursera</b></li>
+            <p>2020</p>
+            <p>Python 3 Programming Specialization</p>
+            <p>Python for Everybody Specialization</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Showcase -->
+    <section id="showcase">
+      <div class="album py-4">
+        <div class="container">
+          <div class="mb-4">
+            <h4>Here are some of the product configurators I've done</h4>
+            <hr />
+          </div>
+
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  class="ShowcaseImage m-2"
+                  src="Images/AtticCapture.jpg"
+                  alt="AtticCapture"
+                />
+                <div class="card-body">
+                  <h4>Attic Configurator</h4>
+                  <p class="card-text">
+                    Product configurator for Attic. A modular product line where
+                    we can combine different colors and shapes.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        data-bs-toggle="modal"
+                        data-bs-target="#AtticModal"
+                        type="button"
+                        class="btn btn-sm btn-outline-warning"
+                      >
+                        Open website
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  class="ShowcaseImage m-2"
+                  src="Images/IrisCapture.jpg"
+                  alt="IrisCapture"
+                />
+                <div class="card-body">
+                  <h4>Iris Configurator</h4>
+                  <p class="card-text">
+                    Product configurator for Iris. With different shapes and
+                    colors to choose you can configure a thousand different
+                    options.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        data-bs-toggle="modal"
+                        data-bs-target="#IrisModal"
+                        type="button"
+                        class="btn btn-sm btn-outline-warning"
+                      >
+                        Open website
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  class="ShowcaseImage m-2"
+                  src="Images/TubsCapture.jpg"
+                  alt="TubsCapture"
+                />
+                <div class="card-body">
+                  <h4>Tubs Configurator</h4>
+                  <p class="card-text">
+                    Product configurator for Tubs. With this highly modular
+                    product line you can configure a simple shape or a highly
+                    complex one.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        data-bs-toggle="modal"
+                        data-bs-target="#TubsModal"
+                        type="button"
+                        class="btn btn-sm btn-outline-warning"
+                      >
+                        Open website
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  class="ShowcaseImage m-2"
+                  src="Images/QuanticCapture.jpg"
+                  alt="QuanticCapture"
+                />
+                <div class="card-body">
+                  <h4>Quantic Configurator</h4>
+                  <p class="card-text">
+                    Product configurator for Quantic. Comine different types and
+                    finishes to create a unique combination.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        data-bs-toggle="modal"
+                        data-bs-target="#QuanticModal"
+                        type="button"
+                        class="btn btn-sm btn-outline-warning"
+                      >
+                        Open website
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="AtticModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Attic Configurator
+            </h5>
+            <button
+              type="button"
+              class="btn btn-danger btn-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            You will be redirected to the Attic configurator. Are you sure you
+            want to go?
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              No
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick=" window.open('https://attic.ledsc4.com','_blank')"
+              data-bs-dismiss="modal"
+            >
+              Yes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="IrisModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Iris Configurator
+            </h5>
+            <button
+              type="button"
+              class="btn btn-danger btn-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            You will be redirected to the Iris configurator. Are you sure you
+            want to go?
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              No
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick=" window.open('https://iris.ledsc4.com','_blank')"
+              data-bs-dismiss="modal"
+            >
+              Yes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="TubsModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Tubs Configurator
+            </h5>
+            <button
+              type="button"
+              class="btn btn-danger btn-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            You will be redirected to the Tubs configurator. Are you sure you
+            want to go?
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              No
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick=" window.open('https://tubs.ledsc4.com','_blank')"
+              data-bs-dismiss="modal"
+            >
+              Yes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="QuanticModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Quantic Configurator
+            </h5>
+            <button
+              type="button"
+              class="btn btn-danger btn-circle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            You will be redirected to the Quantic configurator. Are you sure you
+            want to go?
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              No
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick=" window.open('https://quantic.ledsc4.com','_blank')"
+              data-bs-dismiss="modal"
+            >
+              Yes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Me -->
+
+    <div class="container mb-5" id="contactme">
+      <div class="position-relative pb-5 text-center text-muted">
+        <svg class="bi mt-5 mb-3" width="48" height="48">
+          <use xlink:href="#check2-circle"></use>
+        </svg>
+        <h1 class="text-body-emphasis">Get In Touch</h1>
+        <p class="col-lg-6 mx-auto mb-4">
+          If you're interested in the work I do, don't hestiate, let's get in
+          touch.
+        </p>
+        <a class="btn btn-lg btn-outline-warning" type="button" href="mailto:">
+          Contact Me
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container" id="footer">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <img
+            src="Images/ProfilePic.PNG"
+            alt="mini profile image"
+            height="50px"
+            class="rounded-circle"
+          />
+
+          <span class="mb-0 mb-md-0 text-body-secondary"
+            >© 2023 Jaume Viladevall</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              class="text-body-secondary"
+              href="https://www.linkedin.com/in/jaume-viladevall-26345b63/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-linkedin"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <div class="homebutton">
+      <a href="#" class="nav-link active" aria-current="page"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-arrow-up-circle"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
